@@ -40,6 +40,10 @@ export const Sidebar = () => {
                     </button>
                 ))}
             </div>
+
+            <hr className="my-5 border-t-[0.5px] border-[#eee]" />
+            <h2 className="text-[1.2rem] mb-[10px] font-bold">Repository</h2>
+            <p className="text-[0.9rem] text-[#666]">Find the code behind this here: </p>
         </div>
     )
 }
