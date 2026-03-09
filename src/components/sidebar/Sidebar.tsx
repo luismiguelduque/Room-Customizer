@@ -43,7 +43,7 @@ export const Sidebar = () => {
 
             <hr className="my-5 border-t-[0.5px] border-[#eee]" />
             <h2 className="text-[1.2rem] mb-[10px] font-bold">Repository</h2>
-            <p className="text-[0.9rem] text-[#666]">Find the code behind this here: </p>
+            <p className="text-[0.9rem] text-[#666]">Find the code behind this <a className="text-blue-600 hover:underline" href="https://github.com/luismiguelduque/Room-Customizer" target="_blank" rel="noopener noreferrer">Here</a> </p>
         </div>
     )
 }
