@@ -1,6 +1,6 @@
-import { RoomCustomizerContextProvider } from './context/RoomCustomizerContext'
 import { Sidebar } from './components/sidebar/Sidebar'
 import { Viewer } from './components/Viewer'
+import { RoomCustomizerContextProvider } from './context/RoomCustomizerContextProvider'
 
 export const RoomCustomizer = () => {
     return (

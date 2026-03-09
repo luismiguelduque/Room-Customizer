@@ -12,7 +12,7 @@ export interface WallColor {
 
 export const FLOOR_TEXTURES: FloorTexture[] = [
     {
-        id: 'graywood',
+        id: 'grayWood',
         name: 'Gray wood',
         maps: {
             map: '/assets/textures/wooden_color.jpg',
@@ -21,7 +21,7 @@ export const FLOOR_TEXTURES: FloorTexture[] = [
         }
     },
     {
-        id: 'brownwood',
+        id: 'brownWood',
         name: 'Brown wood',
         maps: {
             map: '/assets/textures/wooden_normal.jpg',
@@ -30,7 +30,7 @@ export const FLOOR_TEXTURES: FloorTexture[] = [
         }
     },
     {
-        id: 'yellowwood',
+        id: 'yellowWood',
         name: 'Yellow wood',
         maps: {
             map: '/assets/textures/wooden_rough.jpg',

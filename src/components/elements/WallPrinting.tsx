@@ -1,11 +1,19 @@
 import { useTexture } from '@react-three/drei'
+import type { Texture } from 'three/src/Three.js';
 
-export const WallPrinting = ({ url, width = 10, height = 3, ...props }: any) => {
-    const texture: any = useTexture(url)
+interface Props {
+    url: string;
+    width?: number;
+    height?: number;
+    position?: [x: number, y: number, z: number];
+    rotation?: [x: number, y: number, z: number];
+}
+
+export const WallPrinting = ({ url, width = 10, height = 3, ...props }: Props) => {
+    const texture: Texture<unknown> = useTexture(url)
 
     return (
         <mesh {...props}>
-            <planeGeometry args={[3, 2]} />
             <planeGeometry args={[width, height]} />
             <meshStandardMaterial
                 map={texture}
